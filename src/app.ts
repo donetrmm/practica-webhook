@@ -5,6 +5,7 @@ app.use(express.json());
 
 app.get('/', (req: Request, res: Response) => {
     res.status(200).json({success: true});
+    console.log("pushing");
 });
 
 app.listen(3000, () => {
